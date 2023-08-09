@@ -1,0 +1,229 @@
+html{
+font-family: 'Anuphan', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Anuphan', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Thai', sans-serif;
+}
+
+#fac {
+    font-size: 22px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 14px;
+    }
+    .footer{
+        font-size: 18;
+    }
+}
+
+/*สำหรับจอขนาดกลาง (Tablet) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        font-size: 16px;
+    }
+    .footer{
+        font-size: 18;
+    }
+}
+
+/*สำหรับจอขนาดใหญ่ (Desktop) */
+@media screen and (min-width: 1025px) {
+    .container {
+        font-size: 18px;
+    }
+    .footer{
+        font-size: 18;
+    }
+}
+   
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.picimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.list li {
+    padding: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+img[src*="itpe.png"] {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#left {
+    text-align: left;
+}
+
+.picimg{
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+}
+
+/*div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%; /* ปรับความสูงตามต้องการ */
+  
+  
+  /*div img {
+    /*margin-bottom: 20px;  เพิ่มระยะห่างระหว่างรูปภาพและปุ่ม 
+    margin-right: 100px;*/
+  
+
+  #newslogo{
+    background-color:white;
+    border: 0 white;
+    
+}
+
+.itema{
+    width: 50%;
+    height: auto;
+}
+#teach{
+    color: darkblue;
+
+}
+#name{
+    text-align: center;
+    font-size: 18px;
+}
+h4{
+    color:dimgrey;
+}
+
+/* สำหรับ <footer> ให้อยู่ล่างสุด */
+footer {
+    width: 100%;
+    padding: 20px; /* ระยะขอบ */
+    background-color: rgb(83, 105, 249);
+    color: #ffffff;
+    text-align: left; /* จัดตำแหน่งตรงกลาง */
+    
+
+}
+/* ปรับขนาดตัวอักษรทั้งหมดใน <footer> */
+footer * {
+    font-size: 14px; /* ขนาดตัวอักษรทั้งหมด */
+    display: block;
+    clear: both;
+    margin-top: 5px;
+    
+}
+#contac {
+    font-size: 18px;
+    text-align: left;
+}
+.con {
+    text-align: center;
+}
+
+#piccon {
+    width: 150px;
+    margin: 0 auto; /* จัดให้อยู่กึ่งกลางในแนวนอน */
+}
+
+#contac-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0px; /* ระยะขอบ */
+    background-color: rgb(231, 232, 238);
+    text-align: center; /* จัดตำแหน่งตรงกลาง */
+    margin: 0 auto; /* จัดให้อยู่กึ่งกลางในแนวนอน */
+}
+
+#teac{
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+#teacher{
+    display: flex;
+    font-size: 14px;
+    background-color: rgb(245, 237, 220);
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  #nav-border {
+    text-align: center;
+  }
+
+  .pd {
+    display: inline-block;
+    margin: 0 5px; /* กำหนดระยะห่างระหว่างลิงก์ */
+  }
+
+  #iframe-course {
+    margin-top: 20px; /* กำหนดระยะห่างด้านบนของ iframe */
+  }
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
