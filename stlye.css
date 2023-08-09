@@ -5,49 +5,23 @@ font-family: 'Anuphan', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans Thai', sans-serif;
 }
+  
 
 #fac {
     font-size: 22px;
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        font-size: 14px;
-    }
-    .footer{
-        font-size: 18;
-    }
-}
-
-/*สำหรับจอขนาดกลาง (Tablet) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        font-size: 16px;
-    }
-    .footer{
-        font-size: 18;
-    }
-}
-
-/*สำหรับจอขนาดใหญ่ (Desktop) */
-@media screen and (min-width: 1025px) {
-    .container {
-        font-size: 18px;
-    }
-    .footer{
-        font-size: 18;
-    }
-}
    
 body {
     margin: 0;
-    padding: 0;
-    
-}
+    padding: 0;}
 
 .container {
     padding-top: 30px;
+    width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
 }
 
 .picimg {
@@ -57,15 +31,23 @@ body {
 
 .list {
     list-style: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: flex;
     justify-content: center;
     background-color: #f1f1f1;
+    justify-content: space-around;
+
 }
 
 .list li {
     padding: 10px;
+    display: inline;
+}
+
+.modal {
+    text-align: center;
+    padding: 20px;
 }
 
 .list li a {
@@ -208,7 +190,10 @@ article {
     margin-top: 20px; /* กำหนดระยะห่างด้านบนของ iframe */
   }
 
-
+  #can-all{
+    display: flex;
+    justify-content: center;
+  }
 
 
 

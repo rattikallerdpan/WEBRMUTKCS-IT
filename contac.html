@@ -18,6 +18,26 @@
         body {
           background-color: #cde4e6; /* เปลี่ยนสีแบล็คกาวตามที่คุณต้องการ */
         }
+
+    @media (max-width: 400px) {
+    /* สไตล์สำหรับหน้าจอขนาดเล็ก */
+    .list{
+        font-size: 10px;
+    }
+}
+  
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* สไตล์สำหรับหน้าจอขนาดกลาง */
+    .list{
+    font-size: 14px;}
+  }
+  
+  @media (min-width: 1025px) {
+    /* สไตล์สำหรับหน้าจอขนาดใหญ่ */
+    .list{
+    font-size: 18px;}
+  }
       </style>
 </head>
 <body style="margin: 0; padding: 0;">
@@ -36,7 +56,7 @@
     
     <h3 style="text-align: center;">&nbsp;🧰คูมือนักศึกษา</h3>
     <p style="text-align: center;">
-        <iframe name="iframe" src="./pdf/student.pdf" style="width:85%; height:75em; margin: auto;"></iframe>
+        <iframe name="iframe"  src="./pdf/student.pdf" style="width:85%; height:75em; margin: auto;"></iframe>
         </p><br><br><hr>
 
     <div class="con">

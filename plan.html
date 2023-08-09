@@ -18,6 +18,29 @@
       body {
         background-color: #cde4e6; /* เปลี่ยนสีแบล็คกาวตามที่คุณต้องการ */
       }
+
+  @media (max-width: 400px) {
+    /* สไตล์สำหรับหน้าจอขนาดเล็ก */
+    .list{
+        font-size: 10px;}
+
+    #nav-border {
+      font-size: 5px;
+    }
+
+    }
+    
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* สไตล์สำหรับหน้าจอขนาดกลาง */
+    .list{
+    font-size: 14px;}
+  }
+  
+  @media (min-width: 1025px) {
+    /* สไตล์สำหรับหน้าจอขนาดใหญ่ */
+    .list{
+    font-size: 18px;}
+  }
     </style>
 </head>
 <body>
@@ -37,7 +60,7 @@
       
         <div class="container">
             <div class="modal">
-            <h3 id="welc" style="text-align: center;"">📚แผนการเรียน</h3>
+            <h3 id="welc" style="text-align: center;">📚แผนการเรียน</h3>
             <article>
               <section>
                       <nav id="nav-border">
@@ -53,9 +76,7 @@
                       <a class="pd" href="./plan/it/studyplan_id66_IT.jpg" target="iframe">รหัส 66 IT</a> |	  
                       </nav>
                   <br>
-                  <iframe name="iframe" id="iframe-course" src="./plan/cs/studyplan_id66_CS.jpg" style="width: 1070px; height: 600px;"></iframe>
-                  
-                  
+                  <iframe name="iframe" id="iframe-course" src="./plan/cs/studyplan_id66_CS.jpg" style="width:85%; height:30em; margin: auto;"></iframe>
               </section>
           </article>
             </div>

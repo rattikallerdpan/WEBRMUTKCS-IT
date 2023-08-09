@@ -18,6 +18,29 @@
         body {
           background-color: #cde4e6; /* เปลี่ยนสีแบล็คกาวตามที่คุณต้องการ */
         }
+
+    @media (max-width: 400px) {
+    /* สไตล์สำหรับหน้าจอขนาดเล็ก */
+    .list{
+        font-size: 10px;
+    }
+    div iframe{
+        width: 10em;
+        height: 10em;
+    }
+    }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* สไตล์สำหรับหน้าจอขนาดกลาง */
+    .list{
+    font-size: 14px;}
+  }
+  
+  @media (min-width: 1025px) {
+    /* สไตล์สำหรับหน้าจอขนาดใหญ่ */
+    .list{
+    font-size: 18px;}
+  }
       </style>
 </head>
 <body style="margin: 0; padding: 0;">
@@ -34,21 +57,11 @@
        <li><a href="./index.html">|🏠|&nbsp;</a></li>  
         </ul>
     </div><br><hr>
-    
-    <article>
-        <section>
+
             <h3 style="text-align: center;">📅ปฏิทินการศึกษา</h3>
-            <nav id="nav-border" style="text-align:center;">
-                <a href="./pdf/" target="iframe">ปีการศึกษา 2566</a> |
-            </nav>
-            <br>
-            <p style="text-align: center;">
-            <iframe name="iframe" src="./pdf/calendar_2566.pdf" style="width: 1000px; height: 1000px;"></iframe>
-            </p>
-            <br>
-        </section>	
-        </article>
-        
+            <p style="text-align: center;"></p>
+                <iframe name="iframe" id="can-all" src="./pdf/calendar_2566.pdf" style="width:85%; height:75em; margin: auto;"></iframe>
+            </p><br><br>
         <footer>
             <section>
                 <div>
